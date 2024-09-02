@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JGive FE Smoke Testing Suite">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="test.smoke_test_FE.FE_RegisterUser_Test"/>
+            <class name="test.smoke_test_FE.VM_VC_FVC_Test"/>
+            <class name="test.smoke_test_FE.VM_VC_FUVD_Test"/>
+            <class name="test.smoke_test_FE.IDM_IDC_FAID_Test"/>
+            <class name="test.smoke_test_FE.IDM_IDC_FIDLV_Test"/>
+            <class name="test.smoke_test_FE.ODM_ODC_FODC_Test"/>
+            <class  name="test.smoke_test_FE.ODM_ODC_FODLV_Test"/>
+            <class name="test.smoke_test_FE.CM_CC_FCC_Test"/>
+            <class name="test.smoke_test_FE.BE_Publish_Campaign_Test"/>
+            <class name="test.smoke_test_FE.DM_AD_FADD_Test"/>
+        </classes>
+    </test>
+</suite>

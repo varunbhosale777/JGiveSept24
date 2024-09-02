@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JGive BE Smoke Testing Suite">
+	<test thread-count="5" name="Test">
+		<classes> 
+			<class name="test.smoke_test_BE.UM_LOGN_BLG_Test"/> 
+			<class name="test.smoke_test_BE.BE_RegisterUser_Test"/> 
+<!--			<class name="test.smoke_test_BE.VM_VC_BVC_Test"/>-->
+<!--			<class name="test.smoke_test_BE.VM_VC_VDV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.CM_CTC_BCTC_Test"/>-->
+<!--			<class name="test.smoke_test_BE.CM_CTC_BCTLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.IDM_IDC_BIDC_Test"/>-->
+<!--			<class name="test.smoke_test_BE.IDM_IDC_BIDLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.ODM_ODC_BODC_Test"/>-->
+<!--			<class name="test.smoke_test_BE.ODM_ODC_BODLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.CM_CC_BCC_Test"/>-->
+<!--			<class name="test.smoke_test_BE.CM_CC_BCLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.DM_AD_BAD_Test"/>-->
+<!--			<class name="test.smoke_test_BE.DM_DLV_BDLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_CPR_BCPRLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_CR_BCRLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_CR_BCSRLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_DR_BDRLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_GR_BGRLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_IDR_BIDLV_Test"/>-->
+<!--			<class name="test.smoke_test_BE.RM_ODR_BODRLV_Test"/>-->
+		</classes>
+	</test>
+</suite>

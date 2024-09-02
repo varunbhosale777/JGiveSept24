@@ -1,0 +1,7 @@
+logs/*
+reports/*
+screenshots/*
+.idea/*
+target/*
+.gitlab/*
+failedtestcase.png
